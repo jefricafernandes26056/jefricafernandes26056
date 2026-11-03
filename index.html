@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ha'u Nian</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon husi Font Awesome ba menú HP no rede sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Menú Navigasaun -->
+    <header class="navbar">
+        <div class="logo">Portofolio<span>.</span></div>
+        
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Kona ba Ha'u</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botaun Menú HP (Hamburger Icon) -->
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- 1. Seksaun Home -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Benvindu ba Ha'u-nia Website</h3>
+            <h1>Olá, Ha'u <span>Naran Anónimu</span></h1>
+            <p>Ha'u Mahasisiwa / Profissional iha Área Teknolojia no Informasaun.</p>
+            <a href="#kontak" class="btn">Kontak Ha'u</a>
+        </div>
+        <div class="hero-img">
+            <img src="ica.jpg" alt="Foto Perfil">
+        </div>
+    </section>
+
+    <!-- 2. Seksaun Kona ba Ha'u -->
+    <section id="about" class="about">
+        <h2 class="title">Kona ba <span>Ha'u</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Sua Histora no Habilidatess</h3>
+                <p>Ha'u iha pasiaun boot iha área dezenvolvimentu web, design, no teknolojia informasaun. Ha'u gosta aprende buat foun no servisu hamutuk iha meiu ekipa.</p>
+                
+                <div class="skills">
+                    <h4>Habilidade Sira:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> HTML5 & CSS3</li>
+                        <li><i class="fa-solid fa-check"></i> JavaScript</li>
+                        <li><i class="fa-solid fa-check"></i> Web Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Seksaun Galeria -->
+    <section id="galeria" class="galeria">
+        <h2 class="title">Ha'u-nia <span>Galeria</span></h2>
+        <div class="galeria-container">
+            <div class="card">
+                <img src="galeria1.jpg" alt="Projektu 1">
+                <div class="card-info">
+                    <h3>Projektu 1</h3>
+                    <p>Deskrisaun badak kona ba projetu ne'e.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="galeria2.jpg" alt="Projektu 2">
+                <div class="card-info">
+                    <h3>Projektu 2</h3>
+                    <p>Deskrisaun badak kona ba projetu ne'e.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="galeria3.jpg" alt="Projektu 3">
+                <div class="card-info">
+                    <h3>Projektu 3</h3>
+                    <p>Deskrisaun badak kona ba projetu ne'e.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Seksaun Kontak -->
+    <section id="kontak" class="kontak">
+        <h2 class="title">Kontak <span>Ha'u</span></h2>
+        <div class="kontak-container">
+            <div class="kontak-info">
+                <p><i class="fa-solid fa-envelope"></i> email@exemplu.com</p>
+                <p><i class="fa-solid fa-phone"></i> +670 7777-7777</p>
+                <p><i class="fa-solid fa-location-dot"></i> Dili, Timor-Leste</p>
+            </div>
+            <form class="kontak-form" onsubmit="event.preventDefault(); alert('Mensajen haruka tiha ona!');">
+                <input type="text" placeholder="Naran Kompletu" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="5" placeholder="Sua Mensajen..." required></textarea>
+                <button type="submit" class="btn">Haruka Mensajen</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé (Footer) -->
+    <footer>
+        <p>&copy; 2026 Portofolio. Direitu hotu reservadu.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
